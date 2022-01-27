@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Max Verstappen - Newsletter</title>
+</head>
+<body>
+     <!--Tabela de navegação-->
+    <div id = "fototopo">
+        <a href = "index.html"><img src ="images/RBR.jpg" alt="Red Bull Racing Car" id = "topo"></a>
+    </div>
+    </div>
+        <div><h2><a href = "index.html">Home</a></h2></div>
+        <div><h2><a href = "history/summary.html">Resumo</a></h2></div>
+        <div><h2><a href = "history/SingleSeater/f1.html">Formula 1</a></h2></div>
+        <div><h2><a href = "history/karting/young.html">Karting</a></h2></div>
+        <div><h2><a href = "history/records/trophies.html">Títulos</a></h2></div>
+    </div>
+    <div id = "newsletter">
+        <h2>Newsletter</h2>
+        <!--Início de um formulário-->
+    </div>
+        <div id = "formulario">
+        <form>
+            <fieldset>
+            <legend>Para receber uma newsletter relativa às notícias de F1, por favor preencha o formulário abaixo:</legend><br>
+                <label>Primeiro nome:</label>
+                <input type = "text" placeholder = "Daniel" required><br><br>
+                <label>Último nome:</label>
+                <input type = "text" placeholder = "Machado"><br><br>
+                <label>E-Mail:</label>
+                <input type = "email" placeholder = "danielmachado96@hotmail.com" required><br><br>
+                <form>
+                <label for = "construtores">Escolha a sua equipa preferida:</label>
+                    <select name = "construtores" id = "equipas">
+                        <option value="RebBullRacing">Red Bull Racing</option>
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Alpine">Alpine</option>
+                        <option value="Haas">Haas</option>
+                        <option value="McLaren">McLaren</option>
+                        <option value="AstonMartin">Aston Martin</option>
+                        <option value="Ferrari">Ferrari</option>
+                        <option value="AlphaTauri">AlphaTauri</option>
+                        <option value="AlphaRomeo">Alpha Romeo</option>
+                        <option value="Williams">Williams</option>
+                    </select>
+                </form><br><br>
+                <label>Telemóvel:</label>
+                <input type="tel" id="phone" placeholder="911111111" pattern="[0-9]{9}" required><br>
+                <p>Selecione a frequência:</p>
+                <div>
+                    <input type="radio" id="opcao1" name="frequencia" value="mensal">
+                    <label for="1">Mensal</label>
+                    <input type="radio" id="opcao2" name="frequencia" value="quinzenal">
+                    <label for="2">Quinzenal</label>
+                    <input type="radio" id="opcao3" name="frequencia" value="semanal">
+                    <label for="4">Semanal</label>
+                </div><br>
+                    <input type = "reset" value = "Limpar dados">
+                    <input type = "submit" value = "Enviar dados">
+            </fieldset>
+        </form>
+        </div> 
+        <!-- Barra de footer-->
+        <footer>
+            <div><a href="#topo"><h3>Voltar ao início</h3></a></div>
+            <div><a href = "https://pt-pt.facebook.com/MaxVerstappen" target = "_blanc"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDEyIDIgQyA2LjQ4ODk5NzEgMiAyIDYuNDg4OTk3MSAyIDEyIEMgMiAxNy41MTEwMDMgNi40ODg5OTcxIDIyIDEyIDIyIEMgMTcuNTExMDAzIDIyIDIyIDE3LjUxMTAwMyAyMiAxMiBDIDIyIDYuNDg4OTk3MSAxNy41MTEwMDMgMiAxMiAyIHogTSAxMiA0IEMgMTYuNDMwMTIzIDQgMjAgNy41Njk4Nzc0IDIwIDEyIEMgMjAgMTYuMDE0NDY3IDE3LjA2NTMyMiAxOS4zMTMwMTcgMTMuMjE4NzUgMTkuODk4NDM4IEwgMTMuMjE4NzUgMTQuMzg0NzY2IEwgMTUuNTQ2ODc1IDE0LjM4NDc2NiBMIDE1LjkxMjEwOSAxMi4wMTk1MzEgTCAxMy4yMTg3NSAxMi4wMTk1MzEgTCAxMy4yMTg3NSAxMC43MjY1NjIgQyAxMy4yMTg3NSA5Ljc0MzU2MjUgMTMuNTM4OTg0IDguODcxMDkzOCAxNC40NTg5ODQgOC44NzEwOTM4IEwgMTUuOTM1NTQ3IDguODcxMDkzOCBMIDE1LjkzNTU0NyA2LjgwNjY0MDYgQyAxNS42NzU1NDcgNi43NzE2NDA2IDE1LjEyNjg0NCA2LjY5NTMxMjUgMTQuMDg5ODQ0IDYuNjk1MzEyNSBDIDExLjkyMzg0NCA2LjY5NTMxMjUgMTAuNjU0Mjk3IDcuODM5MzEyNSAxMC42NTQyOTcgMTAuNDQ1MzEyIEwgMTAuNjU0Mjk3IDEyLjAxOTUzMSBMIDguNDI3NzM0NCAxMi4wMTk1MzEgTCA4LjQyNzczNDQgMTQuMzg0NzY2IEwgMTAuNjU0Mjk3IDE0LjM4NDc2NiBMIDEwLjY1NDI5NyAxOS44Nzg5MDYgQyA2Ljg3MDI5MDUgMTkuMjQwODQ1IDQgMTUuOTcwMjM3IDQgMTIgQyA0IDcuNTY5ODc3NCA3LjU2OTg3NzQgNCAxMiA0IHoiPjwvcGF0aD48L3N2Zz4="/></a>
+                <a href = "https://www.instagram.com/maxverstappen1/" target = "_blanc"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTSA4IDMgQyA1LjI0MyAzIDMgNS4yNDMgMyA4IEwgMyAxNiBDIDMgMTguNzU3IDUuMjQzIDIxIDggMjEgTCAxNiAyMSBDIDE4Ljc1NyAyMSAyMSAxOC43NTcgMjEgMTYgTCAyMSA4IEMgMjEgNS4yNDMgMTguNzU3IDMgMTYgMyBMIDggMyB6IE0gOCA1IEwgMTYgNSBDIDE3LjY1NCA1IDE5IDYuMzQ2IDE5IDggTCAxOSAxNiBDIDE5IDE3LjY1NCAxNy42NTQgMTkgMTYgMTkgTCA4IDE5IEMgNi4zNDYgMTkgNSAxNy42NTQgNSAxNiBMIDUgOCBDIDUgNi4zNDYgNi4zNDYgNSA4IDUgeiBNIDE3IDYgQSAxIDEgMCAwIDAgMTYgNyBBIDEgMSAwIDAgMCAxNyA4IEEgMSAxIDAgMCAwIDE4IDcgQSAxIDEgMCAwIDAgMTcgNiB6IE0gMTIgNyBDIDkuMjQzIDcgNyA5LjI0MyA3IDEyIEMgNyAxNC43NTcgOS4yNDMgMTcgMTIgMTcgQyAxNC43NTcgMTcgMTcgMTQuNzU3IDE3IDEyIEMgMTcgOS4yNDMgMTQuNzU3IDcgMTIgNyB6IE0gMTIgOSBDIDEzLjY1NCA5IDE1IDEwLjM0NiAxNSAxMiBDIDE1IDEzLjY1NCAxMy42NTQgMTUgMTIgMTUgQyAxMC4zNDYgMTUgOSAxMy42NTQgOSAxMiBDIDkgMTAuMzQ2IDEwLjM0NiA5IDEyIDkgeiI+PC9wYXRoPjwvc3ZnPg=="/></a>
+                <a href = "https://twitter.com/max33verstappen" target = "_blanc"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTSA1IDMgQyAzLjg5NyAzIDMgMy44OTcgMyA1IEwgMyAxOSBDIDMgMjAuMTAzIDMuODk3IDIxIDUgMjEgTCAxOSAyMSBDIDIwLjEwMyAyMSAyMSAyMC4xMDMgMjEgMTkgTCAyMSA1IEMgMjEgMy44OTcgMjAuMTAzIDMgMTkgMyBMIDUgMyB6IE0gNSA1IEwgMTkgNSBMIDE5LjAwMTk1MyAxOSBMIDUgMTkgTCA1IDUgeiBNIDE0LjU2NjQwNiA3LjExMzI4MTIgQyAxMy4xOTQ0MDYgNy4xMTMyODEyIDEyLjA4MDA3OCA4LjIyODYwOTQgMTIuMDgwMDc4IDkuNTk5NjA5NCBDIDEyLjA4MDA3OCA5Ljg1NjYwOTQgMTIuMTY2MDE2IDEwLjAyODIxOSAxMi4xNjYwMTYgMTAuMTk5MjE5IEMgMTAuMTA5MDE2IDEwLjExNDIxOSA4LjMwOTM3NSA5LjA4NTkwNjMgNy4xMDkzNzUgNy42Mjg5MDYyIEMgNi44NTIzNzUgNy45NzE5MDYyIDYuNzY1NjI1IDguMzk5MTI1IDYuNzY1NjI1IDguODI4MTI1IEMgNi43NjU2MjUgOS42ODUxMjUgNy4xOTQ4NTk0IDEwLjM3MjY1NiA3Ljg4MDg1OTQgMTAuOTcyNjU2IEMgNy40NTI4NTk0IDEwLjg4NjY1NiA3LjEwODYyNSAxMC43OTk5MDYgNi43NjU2MjUgMTAuNjI4OTA2IEMgNi43NjU2MjUgMTEuODI4OTA2IDcuNjIyMzI4MSAxMi43NzIyOTcgOC43MzYzMjgxIDEzLjAyOTI5NyBDIDguNDc5MzI4MSAxMy4xMTUyOTcgOC4zMDc3ODEyIDEzLjExNTIzNCA4LjA1MDc4MTIgMTMuMTE1MjM0IEMgNy45NjQ3ODEzIDEzLjExNTIzNCA3Ljc5MjA5MzggMTMuMDI5Mjk3IDcuNjIxMDkzOCAxMy4wMjkyOTcgQyA3Ljk2NDA5MzcgMTMuOTcyMjk3IDguODIxNTQ2OSAxNC43NDIxODggOS45MzU1NDY5IDE0Ljc0MjE4OCBDIDkuMDc4NTQ2OSAxNS4zNDIxODcgNy45NjM2MDk0IDE1Ljc3MTQ4NCA2Ljg0OTYwOTQgMTUuNzcxNDg0IEwgNi4yNSAxNS43NzE0ODQgQyA3LjM2NCAxNi40NTY0ODQgOC42NTA0ODQ0IDE2Ljg4NjcxOSAxMC4wMjE0ODQgMTYuODg2NzE5IEMgMTQuNTY0NDg0IDE2Ljg4NjcxOSAxNy4wNTA3ODEgMTMuMTE0NDIyIDE3LjA1MDc4MSA5Ljg1NzQyMTkgTCAxNy4wNTA3ODEgOS41MTM2NzE5IEMgMTcuNDc5NzgxIDkuMTcwNjcxOSAxNy45MDY5NTMgOC43NDI1NjI1IDE4LjI1MTk1MyA4LjIyNjU2MjUgQyAxNy43Mzc5NTMgOC40ODQ1NjI1IDE3LjMwODkyMiA4LjU3MDI1IDE2Ljc5NDkyMiA4LjY1NjI1IEMgMTcuMzA4OTIyIDguMzE0MjUgMTcuNzM3MjAzIDcuODg1MTU2MiAxNy45MDgyMDMgNy4yODUxNTYyIEMgMTcuNDc5MjAzIDcuNTQyMTU2MiAxNi45NjUyMzQgNy43OTg3NjU2IDE2LjM2NTIzNCA3Ljg4NDc2NTYgQyAxNS45MzYyMzQgNy4zNzA3NjU2IDE1LjI1MjQwNiA3LjExMzI4MTIgMTQuNTY2NDA2IDcuMTEzMjgxMiB6Ij48L3BhdGg+PC9zdmc+"/></a>
+                <a href = "https://www.youtube.com/c/F1/featured" target = "_blanc"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTSAxMiA0IEMgMTIgNCA1Ljc0NTU0NjkgMy45OTk5Njg3IDQuMTg1NTQ2OSA0LjQxNzk2ODggQyAzLjMyNDU0NjkgNC42NDc5Njg4IDIuNjQ3OTY4NyA1LjMyNTU0NjkgMi40MTc5Njg4IDYuMTg1NTQ2OSBDIDEuOTk5OTY4NyA3Ljc0NTU0NjkgMiAxMiAyIDEyIEMgMiAxMiAxLjk5OTk2ODcgMTYuMjU0NDUzIDIuNDE3OTY4OCAxNy44MTQ0NTMgQyAyLjY0Nzk2ODcgMTguNjc1NDUzIDMuMzI1NTQ2OSAxOS4zNTIwMzEgNC4xODU1NDY5IDE5LjU4MjAzMSBDIDUuNzQ1NTQ2OSAyMC4wMDAwMzEgMTIgMjAgMTIgMjAgQyAxMiAyMCAxOC4yNTQ0NTMgMjAuMDAwMDMxIDE5LjgxNDQ1MyAxOS41ODIwMzEgQyAyMC42NzQ0NTMgMTkuMzUyMDMxIDIxLjM1MjAzMSAxOC42NzQ0NTMgMjEuNTgyMDMxIDE3LjgxNDQ1MyBDIDIyLjAwMDAzMSAxNi4yNTQ0NTMgMjIgMTIgMjIgMTIgQyAyMiAxMiAyMi4wMDAwMzEgNy43NDU1NDY5IDIxLjU4MjAzMSA2LjE4NTU0NjkgQyAyMS4zNTIwMzEgNS4zMjU1NDY5IDIwLjY3NDQ1MyA0LjY0Nzk2ODggMTkuODE0NDUzIDQuNDE3OTY4OCBDIDE4LjI1NDQ1MyAzLjk5OTk2ODcgMTIgNCAxMiA0IHogTSAxMiA2IEMgMTQuODgyIDYgMTguNDkwODc1IDYuMTMzNjA5NCAxOS4yOTY4NzUgNi4zNDk2MDk0IEMgMTkuNDY1ODc1IDYuMzk0NjA5NCAxOS42MDQzOTEgNi41MzMxMjUgMTkuNjUwMzkxIDYuNzAzMTI1IEMgMTkuODkxMzkxIDcuNjAxMTI1IDIwIDEwLjM0MiAyMCAxMiBDIDIwIDEzLjY1OCAxOS44OTEzOTEgMTYuMzk3ODc1IDE5LjY1MDM5MSAxNy4yOTY4NzUgQyAxOS42MDUzOTEgMTcuNDY1ODc1IDE5LjQ2Njg3NSAxNy42MDQzOTEgMTkuMjk2ODc1IDE3LjY1MDM5MSBDIDE4LjQ5MTg3NSAxNy44NjYzOTEgMTQuODgyIDE4IDEyIDE4IEMgOS4xMTkgMTggNS41MTAxMjUgMTcuODY2MzkxIDQuNzAzMTI1IDE3LjY1MDM5MSBDIDQuNTM0MTI1IDE3LjYwNTM5MSA0LjM5NTYwOTQgMTcuNDY2ODc1IDQuMzQ5NjA5NCAxNy4yOTY4NzUgQyA0LjEwODYwOTQgMTYuMzk4ODc1IDQgMTMuNjU4IDQgMTIgQyA0IDEwLjM0MiA0LjEwODYwOTQgNy42MDExNzE5IDQuMzQ5NjA5NCA2LjcwMTE3MTkgQyA0LjM5NDYwOTQgNi41MzMxNzE5IDQuNTMzMTI1IDYuMzk0NjA5NCA0LjcwMzEyNSA2LjM0OTYwOTQgQyA1LjUwODEyNSA2LjEzMzYwOTQgOS4xMTggNiAxMiA2IHogTSAxMCA4LjUzNTE1NjIgTCAxMCAxNS40NjQ4NDQgTCAxNiAxMiBMIDEwIDguNTM1MTU2MiB6Ij48L3BhdGg+PC9zdmc+"/></a></div>
+            <div><a href = "about.html"><h3>Sobre</h3></a></div>
+            <div><h3>Newsletter</h3></div>
+        </footer>
+    </body>
+</html>
