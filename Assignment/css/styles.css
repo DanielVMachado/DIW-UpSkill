@@ -1,19 +1,383 @@
-body {
-    background-color: rgba(255, 166, 0, 0.849);
+/* Geral */
+
+* {
+  color: rgba(255, 255, 255, 0.808);
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-footer {
-    display: flex;
-    background-color: rgb(255, 166, 0, 0.849);
-    padding: 100px;
+html, body {
+  background: linear-gradient(to bottom, #171717de,#121f45d8, #CB2026) fixed;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-nav {
-    display: flex
+p {
+  text-indent: 20px;
 }
+
+
+/* Navegação */
+
+.navbar {
+  display: flex;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  justify-content: space-around;
+  margin-top: 2vh;
+  margin-bottom: 2h;
+  font-size: 1.5em;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.navbar a,
+.navbar a:after,
+.navbar a:before {
+  transition: all .8s;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+/* Homepage */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  animation: heartbeat 2.5s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.8);
+  }
+  5% {
+    transform: scale(0.9);
+  }
+  10% {
+    transform: scale(0.8);
+  }
+  15% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+/* Image topo paginas*/
+
+#topo {
+  margin-bottom: 10px;
+  border-radius: 20px;
+  width: 60vw;
+}
+
 .fototopo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
 
+
+/* Rodapé */
+
+.footer {
+  display: flex;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  justify-content: space-around;
+  margin-top: 4vh;
+  margin-bottom: 2h;
+  font-size: 1.5em;
+  border-top: solid black 2px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.footer a,
+.footer a:after,
+.footer a:before {
+  transition: all .8s;
+}
+
+.footer a:hover {
+  color: black;
+}
+
+.socialmedia{
+  display: flex;
+  flex-direction: row;
+}
+
+/* Newsletter */
+
+input, select, option{
+  color: black;
+}
+
+.news {
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+/* Sobre */
+
+#sobretexto {
+  padding-right: 15vw;
+  padding-left: 15vw;
+}
+
+#iframeups {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Resumo */
+
+summary {
+  font-weight: bold;
+}
+
+#tororosso {
+  border-radius: 20px;
+}
+
+.grelha {
+  display: grid;
+  column-gap: 2vw;
+  row-gap: 3vw;
+  grid-template-columns: 50% 50%;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  margin-top: 30px;
+}
+
+#perfil{
+  border-radius: 50%;
+  width:80%; 
+  height:auto;
+}
+
+#one{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5vw;
+}
+
+#two{
+  align-content: center;
+  display: flex;
+}
+
+.dadosbiograficos{
+  display: grid;
+  column-gap: 10px;
+  row-gap: 5px;
+  grid-template-columns: 50% 50%;
+}
+
+.nome {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.tabelaresultados {
+  display: grid;
+  word-break: break-all;
+  row-gap: 5px;
+  column-gap: 2px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.tabelatitulo {
+  font-weight: bold;
+}
+
+.subtitulo{
+  text-align:  center;
+  font-size: 2em;
+  padding-top: 5vh;
+  font-weight: bold;
+  padding-bottom: 5vh;
+}
+
+#tororosso{
+  width: 100%;
+  height: auto;
+}
+
+#supermax{
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+/* Formula 1 */
+
+.corpo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 20px;
+  row-gap: 50px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.f12015 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.spec2015{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#tr2015 {
+  border-radius: 20px;
+  width: 70%;
+  height: auto;
+}
+
+.tr2015-div {
+  grid-row: 2;
+  grid-column: 1/3;
+  justify-content: center;
+  display: flex;
+}
+
+.redbullhistory{
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#f12020 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.carrorbr16 {
+  grid-column: 1 / 3;
+  grid-row: 4;
+  display: flex;
+  justify-content: center;
+}
+
+#rbr16 {
+  border-radius: 20px;
+  width: 80%;
+  height: auto;
+}
+
+#textosom {
+  grid-row: 5;
+  grid-column: 1 / 3;
+  align-items: center;
+  display: flex;
+}
+
+#audio {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+/* Karting */
+
+.giancarlo {
+  width: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 100px;
+  float: right;
+  font-style: italic;
+  background-color: #E21B4D;
+}
+
+.karting {
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+mark {
+  background-color: black;
+
+}
+
+@keyframes crossfade {
+  0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+}
+
+.slider #second {
+  animation-name: crossfade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+#first{
+  width: 500px;
+}
+
+#second{
+  width: 500px;
+}
+
+.slider img {
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+#karting1 {
+  grid-column: 1 / 3;
+}
+
+.slider {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#dallara {
+  border-radius: 20px;
 }
